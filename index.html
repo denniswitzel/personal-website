@@ -4,59 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website</title>
-</head>
+    <link rel="stylesheet" href="/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Lato:wght@300&display=swap" rel="stylesheet"> </head>
 <body>
     <header>
-        <h1>Hey there! I'm Dennis. Nice to see you here!</h1>
+        <img class="logo" src="/images/dw_logo.svg" alt="logo">
         <nav>
-            <a href="#interests">Personal Interests</a>
-            <a href="#contact">Contact</a>
-            <a href="#connect">Get connected!</a>
-            <a href="#biography">Biography</a>
-            <a href="#cv">My CV</a>
+            <a class="nav-link" href="#interests">Personal Interests</a>
+            <a class="nav-link" href="#contact">Contact</a>
+            <a class="nav-link" href="#connect">Get connected!</a>
+            <a class="nav-link" href="#biography">Biography</a>
+            <a class="nav-link" href="#cv">My CV</a>
         </nav>
     </header> 
     <main>
-        <img src="images/dw_header.jpg" width="100%" alt="header">
-        <img src="images/profilbild.png" width="30%" alt="profile picture">
-        <section id="interests">
-            <h2>Personal interests</h2>
-            <img src="images/design.svg" width="80px" alt="Icon for graphic design">
-            <p>Graphic design</p>
-            <img src="images/videogames.svg" width="80px" alt="Icon for videogames">
-            <p>Videogames</p>
-            <img src="images/sports.svg" width="80px" alt="Icon for sports">
-            <p>Sports</p>
-            <img src="images/movies.svg" width="70px" alt="Icon for movies">
-            <p>Movies</p>
+        <section class="img-header">
+            <h1>Hey there! </br> I'm Dennis. </br>Graphic designer </br>and web developer</h1>
         </section>
-        <section id="contact">
+        <img class="profile-picture" src="images/profilbild.png" width="30%" alt="profile picture">
+        <section id="interests" class="interests">
+            <h2 class="interests-headline">Personal interests</h2>
+            <img class="graphic-design" src="images/design.svg" width="80px" alt="graphic design">
+            <p class="graphic-design-text">Graphic design</p>
+            <img class="videogames" src="images/videogames.svg" width="80px" alt="videogames">
+            <p class="videogames-text">Videogames</p>
+            <img class="sports" src="images/sports.svg" width="80px" alt="sports">
+            <p class="sports-text">Sports</p>
+            <img class="movies" src="images/movies.svg" width="75px" alt="movies">
+            <p class="movies-text">Movies</p>
+        </section>
+        <section id="contact" class="contact">
             <h2>Contact information</h2>
             <h3>Phone number</h3>
             <p>0176 123 456 78</p>
             <h3>Mail</h3>
             <p>dennis_witzel@mailbox.org</p>
         </section>
-        <section id="connect">
-            <h2>Get connected!</h2>
-            <p>
+        <h2 class="connect-headline">Get connected!</h2>
+        <section id="connect" class="connect">
                 <a href="https://github.com/denniswitzel" target="_blank" rel="noreferer noopener">
-                    <img src="images/GitHub_Logo.png" width="250px" alt="github">
+                    <img src="images/GitHub_Logo.png" height="80px" alt="github">
                 </a>
-            </p>
             <p>
                 <a href="https://codepen.io/dennisw90" target="_blank" rel="noreferer noopener">
-                    <img src="images/Codepen_Logo.png" width="250px" alt="codepen">
+                    <img src="images/Codepen_Logo.png" height="60px" alt="codepen">
                 </a>
             </p>
             <p>
                 <a href="https://linkedin.com" target="_blank" rel="noreferer noopener">
-                    <img src="images/LI-Logo.png" width="250px" alt="linkedin">
+                    <img src="images/LI-Logo.png" height="60px" alt="linkedin">
                 </a>
             </p>
         </section>
         <section id="biography">
-            <h3>Some facts about me</h3>
+            <h2>Some facts about me</h2>
             <p>Born in the beautiful city of Hamburg. As a 90s kid I spend my time playing Pokémon and soccer until sundown.
                 In my teenage years my passion for art and design had it's origin with doodles and my first steps using photoshop.
                 But there was another big passion in my life. Videogames. Until today I still enjoy playing them. You could say

@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 112.5%;
+    font-family: 'Cormorant Garamond', serif;
+    margin: 0;
+    background-color: #f6f6f6;
+    
+}
+header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 110px;
+    grid-gap: 10px;
+    justify-items: center;
+} 
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5,50px);
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.logo {
+    height: 80px;
+    grid-row: 1;
+    align-self: center;
+}
+
+
+.nav-link{
+    text-decoration: none;
+    border-bottom: 2px solid #87642a;
+    color: black; 
+    font-size: 120%;
+}
+
+.img-header {
+    background-image: url(/images/dw_header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    height: 45vh;
+    text-align: center;
+} 
+
+h1 {
+    margin-top: 0;
+    padding-top: 60px;
+    color: white;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    font-weight: 200;
+} 
+
+h3 {
+    margin: 0;
+    padding-top: 30px;
+} 
+
+.profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+    width: 50%;
+
+}
+
+.interests {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    display: grid;
+    grid-template-columns: 10px repeat(2, 1fr) 10px;
+    grid-template-rows: 50px repeat(2, 90px 40px);
+}
+
+.interests-headline {
+    grid-column: 1 / -1;
+    align-self: center;
+}
+
+.graphic-design {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    align-self: flex-end;
+    justify-self: center;
+}
+
+.graphic-design-text {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    align-self: flex-start;
+    justify-self: center;
+}
+
+.videogames {
+    grid-row: 2/3;
+    grid-column: 3/4;
+    align-self: flex-end;
+    justify-self: center;
+}
+
+.videogames-text {
+    grid-row: 3/4;
+    grid-column: 3/3;
+    align-self: flex-start;
+    justify-self: center;
+}
+
+.sports {
+    grid-row: 4/5;
+    grid-column: 2/3;
+    align-self: flex-end;
+    justify-self: center;
+}
+
+.sports-text {
+    grid-row: 5/6;
+    grid-column: 2/3;
+    align-self: flex-start;
+    justify-self: center;
+}
+
+.movies {
+    grid-row: 4/5;
+    grid-column: 3/4;
+    align-self: flex-end;
+    justify-self: center;
+}
+
+.movies-text {
+    grid-row: 5/6;
+    grid-column: 3/4;
+    align-self: flex-start;
+    justify-self: center;
+}
+
+.contact {
+    background-color: #87642a;
+    padding: 40px 30px;
+    color: white;
+}
+
+.connect {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.connect-headline{
+    margin-top: 40px;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding-top: 5px;
+}
+
+footer {
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
