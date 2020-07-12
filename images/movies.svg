@@ -1,19 +1,70 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="20px" height="16px" viewBox="0 0 20 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
-    <title>movie</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Two-Tone" transform="translate(-612.000000, -954.000000)">
-            <g id="AV" transform="translate(100.000000, 852.000000)">
-                <g id="Two-Tone-/-AV-/-movie" transform="translate(510.000000, 98.000000)">
-                    <g>
-                        <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
-                        <polygon id="🔹-Secondary-Color" fill="#D0D0D0" points="20 10 5.76 10 4 6.47 4 18 20 18"></polygon>
-                        <path d="M2.01,6 L2,18 C2,19.1 2.9,20 4,20 L20,20 C21.1,20 22,19.1 22,18 L22,4 L18,4 L20,8 L17,8 L15,4 L13,4 L15,8 L12,8 L10,4 L8,4 L10,8 L7,8 L5,4 L4,4 C2.9,4 2.01,4.9 2.01,6 Z M4,6.47 L5.76,10 L20,10 L20,18 L4,18 L4,6.47 Z" id="🔹-Primary-Color" fill="#1D1D1D"></path>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="109px" height="145.167px" viewBox="0 0 109 145.167" enable-background="new 0 0 109 145.167" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<path fill="#87642A" d="M1.568,144.211c-0.553,0-1-0.449-1-1V1.872c0-0.552,0.447-1,1-1s1,0.448,1,1v141.339
+				C2.568,143.762,2.121,144.211,1.568,144.211z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<rect x="1.568" y="17.208" fill="#87642A" width="20.416" height="2"/>
+		</g>
+		<g>
+			<rect x="1.568" y="44.375" fill="#87642A" width="20.416" height="2"/>
+		</g>
+		<g>
+			<rect x="1.568" y="71.542" fill="#87642A" width="20.416" height="2"/>
+		</g>
+		<g>
+			<rect x="1.568" y="98.708" fill="#87642A" width="20.416" height="2"/>
+		</g>
+		<g>
+			<rect x="1.568" y="125.874" fill="#87642A" width="20.416" height="2"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<rect x="86.652" y="17.208" fill="#87642A" width="20.416" height="2"/>
+		</g>
+		<g>
+			<rect x="86.652" y="44.375" fill="#87642A" width="20.416" height="2"/>
+		</g>
+		<g>
+			<rect x="86.652" y="71.542" fill="#87642A" width="20.416" height="2"/>
+		</g>
+		<g>
+			<rect x="86.652" y="98.708" fill="#87642A" width="20.416" height="2"/>
+		</g>
+		<g>
+			<rect x="86.652" y="125.874" fill="#87642A" width="20.416" height="2"/>
+		</g>
+	</g>
+	<g>
+		<path fill="#87642A" d="M106.985,144.211c-0.553,0-1-0.449-1-1V1.872c0-0.552,0.447-1,1-1s1,0.448,1,1v141.339
+			C107.985,143.762,107.538,144.211,106.985,144.211z"/>
+	</g>
+	<g>
+		<g>
+			<polygon points="22.484,142.211 22.484,141.247 22.484,3.497 22.484,2.872 22.484,0.872 20.484,0.872 20.484,144.211 
+				22.484,144.211 			"/>
+		</g>
+		<g>
+			<g>
+				<polygon points="85.652,0.872 85.652,2.872 85.652,3.706 85.652,140.04 85.652,142.211 85.652,144.211 87.652,144.211 
+					87.652,0.872 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<rect x="21.484" y="31.372" width="65.168" height="2"/>
+	</g>
+	<g>
+		<rect x="21.484" y="112.622" width="65.168" height="2"/>
+	</g>
+</g>
 </svg>

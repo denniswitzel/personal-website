@@ -5,58 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website</title>
     <link rel="stylesheet" href="/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Lato:wght@300&display=swap" rel="stylesheet"> </head>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Lato:wght@100;300&display=swap" rel="stylesheet"> </head>
 <body>
     <header>
         <img class="logo" src="/images/dw_logo.svg" alt="logo">
         <nav>
-            <a class="nav-link" href="#interests">Personal Interests</a>
-            <a class="nav-link" href="#contact">Contact</a>
-            <a class="nav-link" href="#connect">Get connected!</a>
-            <a class="nav-link" href="#biography">Biography</a>
-            <a class="nav-link" href="#cv">My CV</a>
+            <a class="nav-link interests-tablet" href="#interests">Personal Interests</a>
+            <a class="nav-link contact-tablet" href="#contact">Contact</a>
+            <a class="nav-link connect-tablet" href="#connect">Get connected!</a>
+            <a class="nav-link biography-tablet" href="#biography">Biography</a>
+            <a class="nav-link cv-tablet" href="#cv">My CV</a>
         </nav>
     </header> 
     <main>
         <section class="img-header">
             <h1>Hey there! </br> I'm Dennis. </br>Graphic designer </br>and web developer</h1>
         </section>
-        <img class="profile-picture" src="images/profilbild.png" width="30%" alt="profile picture">
+        <img class="profile-picture" src="images/profilbild.png" alt="profile picture">
         <section id="interests" class="interests">
             <h2 class="interests-headline">Personal interests</h2>
-            <img class="graphic-design" src="images/design.svg" width="80px" alt="graphic design">
+            <img class="graphic-design" src="images/graphic-design.svg" height="80px" alt="Graphic design">
             <p class="graphic-design-text">Graphic design</p>
-            <img class="videogames" src="images/videogames.svg" width="80px" alt="videogames">
-            <p class="videogames-text">Videogames</p>
-            <img class="sports" src="images/sports.svg" width="80px" alt="sports">
-            <p class="sports-text">Sports</p>
-            <img class="movies" src="images/movies.svg" width="75px" alt="movies">
+            <img class="photography" src="images/photography.svg" height="60px" alt="Photography">
+            <p class="photography-text">Photography</p>
+            <img class="movies" src="images/movies.svg" height="80px" alt="Movies">
             <p class="movies-text">Movies</p>
+            <img class="videogames" src="images/videogames.svg" height="80px" alt="Videogames">
+            <p class="videogames-text">Videogames</p>
         </section>
-        <section id="contact" class="contact">
-            <h2>Contact information</h2>
-            <h3>Phone number</h3>
-            <p>0176 123 456 78</p>
-            <h3>Mail</h3>
-            <p>dennis_witzel@mailbox.org</p>
-        </section>
-        <h2 class="connect-headline">Get connected!</h2>
-        <section id="connect" class="connect">
-                <a href="https://github.com/denniswitzel" target="_blank" rel="noreferer noopener">
-                    <img src="images/GitHub_Logo.png" height="80px" alt="github">
+        <div class="contact-wrapper">
+            <section id="contact" class="contact">
+                <h2>Contact information</h2>
+                <h3>Phone number</h3>
+                <a href="tel:+4917612345678">0176 123 456 78</a>
+                <h3>Mail</h3>
+                <a href="mailto:dennis_witzel@mailbox.org">dennis_witzel@mailbox.org</a>
+                <h3>Social media</h3>
+                <a href="https://twitter.com" target="_blank"   rel="noreferer noopener">
+                    <img src="/images/twitter.png"  height="23px" alt="twitter">
                 </a>
-            <p>
-                <a href="https://codepen.io/dennisw90" target="_blank" rel="noreferer noopener">
-                    <img src="images/Codepen_Logo.png" height="60px" alt="codepen">
+                <a href="https://instagram.com" target="_blank"   rel="noreferer noopener">
+                    <img src="/images/instagram.png"  height="25px" alt="instagram">
                 </a>
-            </p>
-            <p>
-                <a href="https://linkedin.com" target="_blank" rel="noreferer noopener">
-                    <img src="images/LI-Logo.png" height="60px" alt="linkedin">
-                </a>
-            </p>
-        </section>
-        <section id="biography">
+            </section>
+            <section id="connect" class="connect">
+                    <h2>Get connected!</h2>
+                    <a href="https://github.com/denniswitzel" target="_blank" rel="noreferer noopener">
+                        <img src="images/GitHub_Logo.png" height="60px" alt="github">
+                    </a>
+                    <a href="https://codepen.io/dennisw90" target="_blank" rel="noreferer noopener">
+                        <img src="images/Codepen_Logo.png" height="50px" alt="codepen">
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" rel="noreferer noopener">
+                        <img src="images/LI-Logo.png" height="50px" alt="linkedin">
+                    </a>
+            </section>
+        </div>
+        <section id="biography" class="biography">
             <h2>Some facts about me</h2>
             <p>Born in the beautiful city of Hamburg. As a 90s kid I spend my time playing Pokémon and soccer until sundown.
                 In my teenage years my passion for art and design had it's origin with doodles and my first steps using photoshop.
@@ -66,43 +71,15 @@
             </p>
         </section>
         <section id="cv">
-            <h2>My CV</h2>
-            <table>
-                <tr>
-                    <th>Education</th>
-                    <th>Graduation year</th>
-                </tr>
-                <tr>
-                    <td>Realschulabschluss</td>
-                    <td>06/2006</td>
-                </tr>
-                <tr>
-                    <td>Technischer Assistent für Informatik</td>
-                    <td>07/2008</td>
-                </tr>
-                <tr>
-                    <td>Fachhochschulreife: Gestaltung</td>
-                    <td>07/2009</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <th>Work experience</th>
-                    <th>Years</th>
-                </tr>
-                <tr>
-                    <td>Praktikum in einer Werbeagentur</td>
-                    <td>01/2010-07/2010</td>
-                </tr>
-                <tr>
-                    <td>Ausbildung zum Mediengestalter Digital&Print</td>
-                    <td>08/2010-06/2013</td>
-                </tr>
-                <tr>
-                    <td>Mediengestalter Digital&Print - Schwerpunkt: Konzeption und Visualisierung</td>
-                    <td>07/2013-06/2020</td>
-                </tr>
-            </table>
+            <h2 class="cv-headline">My CV</h2>
+            <ul class="cv">
+                    <li class="cv-box-gold"><strong>Education:</strong><br>Realschulabschluss<br><br><strong>Graduation year</strong><br>2006</li>
+                    <li class="cv-box-gold"><strong>Education:</strong><br>Assistent für Informatik<br><br><strong>Graduation year</strong><br>2008</li>
+                    <li class="cv-box-gold"><strong>Education:</strong><br>Fachhochschulreife: Gestaltung<br><br><strong>Graduation year</strong><br>2009</li>
+                    <li class="cv-box-black"><strong>Work expierience:</strong><br>Praktikum in einer Werbeagentur<br><br><strong>Period</strong><br>01/2010-07/2010</li>
+                    <li class="cv-box-black"><strong>Work expierience:</strong><br>Ausbildung zum Mediengestalter Digital&Print<br><br><strong>Period</strong><br>08/2010-06/2013</li>
+                    <li class="cv-box-black"><strong>Work expierience:</strong><br>Mediengestalter Digital&Print<br><br><strong>Period</strong><br>07/2013-06/2020</li>
+            </ul>
         </section>
     </main>
     <footer>
