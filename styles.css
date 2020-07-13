@@ -70,7 +70,7 @@ p {
 }
 
 .img-header {
-    background-image: url(/images/dw_header.jpg);
+    background-image: url(images/dw_header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
