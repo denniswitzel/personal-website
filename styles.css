@@ -274,7 +274,9 @@ footer {
     .img-header {
         height: 400px;
     }   
-
+    .profile-picture {
+        margin-top: -6em;
+    }
     .contact-wrapper {
         grid-template-rows: 1fr;
     }
@@ -302,6 +304,7 @@ footer {
 
     .profile-picture {
         width: 250px;
+        margin-top: -5em;
     }
 
     nav {
