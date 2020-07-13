@@ -265,14 +265,15 @@ footer {
 }
 
 @media (min-width: 700px) { 
-    .img-header {
-        height: 400px;
-    }   
-
+   
     h1 {
         padding-top: 2.5em;
         font-size: 2.25em;
     } 
+
+    .img-header {
+        height: 400px;
+    }   
 
     .contact-wrapper {
         grid-template-rows: 1fr;
