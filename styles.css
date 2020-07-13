@@ -209,6 +209,10 @@ p {
     font-weight: 200;
 }
 
+.biography > h2 {
+    margin-bottom: 1.5em;
+}
+
 .cv {
     display: flex;
     overflow: scroll;
@@ -223,11 +227,11 @@ p {
 
 .cv-box-gold {
     font-family: 'Lato', sans-serif;
-    background-color: #87642a;
-    color: white;
+    background-color: #f6f6f6;
+    color: #87642a;
+    border: 2px solid #87642a;
     list-style: none;
     border-radius: 1em;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
     height: 234px;
     padding: 2em 2em 2em 2em;
     margin: 1em 2em 1em 4em;
@@ -236,11 +240,11 @@ p {
 
 .cv-box-black {
     font-family: 'Lato', sans-serif;
-    background-color: #000000;
-    color: white;
+    background-color: #f6f6f6;
+    color: #000000;
+    border: 2px solid #000000;
     list-style: none;
     border-radius: 1em;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
     height: 234px;
     padding: 2em 2em 2em 2em;
     margin: 1em 2em 1em 4em;
@@ -281,6 +285,10 @@ footer {
     .connect {
         grid-column: 3/5;
         grid-row: 1/2;
+    }
+
+    .biography {
+        padding: 2em 5em 3em 5em;
     }
 }
 
@@ -375,10 +383,8 @@ footer {
     }
 
     .biography {
-        padding: 5em 20em 5em 20em;
+        padding: 5em 15em 5em 15em;
     }
 
-    .biography > h2 {
-        margin-bottom: 1.5em;
-    }
+
 }
